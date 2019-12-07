@@ -1,0 +1,7 @@
+{
+  "name": "Scolby",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

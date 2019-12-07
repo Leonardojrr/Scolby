@@ -1,0 +1,22 @@
+ async function takePicture() {
+    const image = await Camera.getPhoto({
+      quality: 90,
+      allowEditing: true,
+      resultType: CameraResultType.Base64
+    });
+
+    var imageUrl = image.base64String;
+    _base64ToArrayBuffer(imageUrl)
+
+  }
+
+  function _base64ToArrayBuffer(base64: any) {
+    var binary_string = window.atob(base64);
+    var len = binary_string.length;
+    var bytes = new Uint8Array(len);
+    for (var i = 0; i < len; i++) {
+      bytes[i] = binary_string.charCodeAt(i);
+    }
+    console.log(bytes.buffer);
+
+  }

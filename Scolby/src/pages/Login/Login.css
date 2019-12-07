@@ -1,0 +1,110 @@
+#Page_login{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0,128,255,1) 60%, rgba(8,97,185,1) 100%);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Nunito";
+    font-weight: bold;
+}
+
+#login_form{
+    width: 70%;
+    height: 60%;
+    background: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#logo{
+    width: 100%;
+    height: 30%;
+}
+
+#alias{
+    color: #2b94fc;
+    font-family: 'Nunito';
+    font-weight: bold;
+    position: relative;
+    bottom: 26px;
+    right: 20px;
+    font-size: 12px;
+}
+
+#form{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 70%;
+    width: 100%;
+}
+
+.input_field{
+    font-size: 17px;
+ 
+    padding: 10px 6px 10px 6px;
+    border: solid 1px #2b94fc;
+    border-radius: 3px;
+    margin: 10px 0 10px 0;
+}
+
+.input_field:first-child{
+    margin-top:30px;
+}
+
+.input_field::placeholder{
+    color: #bebebe;
+}
+
+.input_field:focus{
+    border: solid 2px #2b94fc;
+    outline: none;
+}
+
+#login_button{
+    background:#bebebe ;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Nunito';
+    border-radius: 20px;
+    height: 15%;
+    width: 45%;
+    margin-top: 20px;
+}
+
+#login_button:focus{
+    outline: none;
+}
+
+#regist_option{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 70%;
+    height: 20%;
+}
+
+#regist_option span{
+    color: white;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+#regist_button{
+    background:#2b94fc ;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Nunito';
+    border-radius: 20px;
+    height: 35%;
+    width: 45%;
+    margin-top: 30px;
+    border: white solid  4px;
+} 
