@@ -1,5 +1,6 @@
 import { IonContent, IonPage } from '@ionic/react';
 import React from 'react';
+
 require('./Home.css')
 
 
@@ -24,6 +25,7 @@ const Home: React.FC = () => {
           will be your guide.
           </p>
       </IonContent>
+
     </IonPage>
   )
 };

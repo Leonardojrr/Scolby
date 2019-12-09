@@ -1,6 +1,5 @@
 import React from 'react';
 import { IonPage } from '@ionic/react';
-
 require('./Login.css')
 
 const Login: React.FC = () => {
