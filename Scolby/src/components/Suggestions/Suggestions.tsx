@@ -8,9 +8,6 @@ type Iprops = {
 
 const Suggestions: React.FC<Iprops> = ({ options, handleClick }) => {
 
-
-
-
     return (
         <div id="suggestions">
             {options.map((item) => {
