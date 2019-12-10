@@ -9,9 +9,11 @@
 }
 
 .chooser_button{
+    border-radius: 50%;
     width: 50px;
     height: 50px;
     opacity: 0.8;
+    box-shadow: 0px 3px 6px rgb(0, 0, 0,0.20);
 }
 
 .enable{

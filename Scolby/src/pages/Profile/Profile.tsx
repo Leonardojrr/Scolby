@@ -1,5 +1,6 @@
 import React from 'react'
 import { IonPage, IonContent } from '@ionic/react';
+require("./Profile.css")
 
 const Profile: React.FC = () => {
     return (

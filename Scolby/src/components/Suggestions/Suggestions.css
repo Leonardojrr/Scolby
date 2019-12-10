@@ -1,0 +1,36 @@
+#suggestions{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    overflow: auto;
+}
+
+.option{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: #D1D1D1;
+    opacity: 50%;
+    border-radius: 20px;
+    height: 60%;
+    margin: 0 5px 0 5px;
+    transition: linear 0.15s;
+}
+
+.option:active{
+    background: #2b94fc;
+}
+
+.option:active span{
+    color: rgb(243, 243, 243);
+}
+
+.option span{
+    font-family: 'Nunito';
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    padding: 0 15px 0 15px;
+    font-size: 17px;
+    transition: linear 0.15s;
+}

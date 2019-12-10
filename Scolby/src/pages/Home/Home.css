@@ -1,4 +1,4 @@
-#Page_home{
+#home-page{
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -6,10 +6,16 @@
     height: 100%;
 }
 
-#header{
+#home-header{
     display: flex;
     justify-content: center;
     background:#2b94fc ;
     height: 12%;
     width: 100%;
+    box-shadow: 0px  3px 6px rgb(0, 0, 0,0.20);
+}
+
+.a{
+    position: fixed;
+    top: 0;
 }

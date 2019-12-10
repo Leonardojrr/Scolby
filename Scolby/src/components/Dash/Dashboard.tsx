@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Route, Redirect } from 'react-router';
+import { Route } from 'react-router';
 import { IonRouterOutlet } from '@ionic/react';
 import PagesChooser from '../PagesChooser/PagesChooser'
 
